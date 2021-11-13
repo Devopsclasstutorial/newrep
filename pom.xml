@@ -87,16 +87,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://15.207.109.29:8081/repository/mt-releases/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://15.207.109.29:8081/repository/mt-snapshots/</url>
-	    </snapshotRepository>
+		<repository>
+			<id>nexus</id>
+			<name>Abhiram</name>
+			<url>http://15.207.109.29:8081/repository/mithun-technologies-releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Abhiram snapshot </name>
+			<url>http://15.207.109.29:8081/repository/mithun-technologies-snapshots</url>
+		</snapshotRepository>
 	</distributionManagement>
 	
 	<build>
